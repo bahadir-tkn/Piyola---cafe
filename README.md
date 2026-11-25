@@ -14,7 +14,7 @@ Sitede uydurma menü, fiyat, yorum ya da görsel yok.
 
 | Bilgi | Kaynak |
 |---|---|
-| Adres, saatler (her gün 09:00–00:00), telefon (0544 445 15 32), Google puanı (4/5, 732), kişi başı 200–400 TL | Kafe sahibi tarafı / restaurantguru |
+| Adres, saatler (her gün 09:00–00:00), telefon (0544 445 15 32), Google puanı (4/5, 732), kişi başı 200–400 TL | Proje sahibinin paylaştığı bilgiler (kaynak: tr.restaurantguru.com/Piyola-Cafe-Isparta) |
 | "Belediye önü, Hasan Gürbüz Parkı" | Kafenin kendi tanıtım görseli |
 | Frambuaz, Şeftali, Kahve Çekirdeği tarifleri ve "Cedric Grolet Fransız tatlılarından" ifadesi | Kafenin kendi Instagram paylaşımları |
 | Serpme kahvaltı içeriği, ev yapımı ürünler | biletbayi.com (2021, 2022), onlinebilet.com |
