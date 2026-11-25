@@ -1,12 +1,14 @@
 # Piyola Cafe Restaurant · Isparta
 
-Piyola Cafe Restaurant için tek sayfalık, statik web sitesi. `index.html`, `style.css` ve `assets/` klasöründen oluşur; derleme adımı yoktur. Dosyayı tarayıcıda açmak ya da GitHub Pages gibi herhangi bir statik barındırmaya koymak yeterli.
+Piyola Cafe Restaurant için tek sayfalık, statik web sitesi. `index.html`, `style.css`, `main.js` ve `assets/` klasöründen oluşur; derleme adımı yoktur. Dosyayı tarayıcıda açmak ya da GitHub Pages gibi herhangi bir statik barındırmaya koymak yeterli.
 
 ## Tasarım
 
 - Renkler kafenin kendi tanıtım görselinden alındı: gül rengi şerit (`#ca8588`) ve bordo yazı (`#823432`).
 - Logo (`assets/logo-beyaz.png`) kafenin tanıtım görselinden kesildi.
-- Yazı tipleri: Playfair Display (başlıklar, logodaki eğik yazıya yakın) ve Jost (metin), Google Fonts üzerinden.
+- Kemer biçimli fotoğraf ve video çerçeveleri köşkün kemerli camlarına gönderme.
+- Yazı tipleri: Cormorant (başlıklar) ve Manrope (metin), Google Fonts üzerinden.
+- `main.js`: kaydırınca belirme, ekrana girince oynayan videolar, Türkiye saatine göre "şu an açık/kapalı" göstergesi.
 
 ## Bilgilerin kaynağı
 

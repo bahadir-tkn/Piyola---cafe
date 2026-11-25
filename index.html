@@ -2,161 +2,261 @@
 <html lang="tr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Piyola Cafe Restaurant · Isparta</title>
-<meta name="description" content="Piyola Cafe Restaurant, Isparta'da Belediye önü Hasan Gürbüz Parkı'nda. Her gün 09:00–00:00. Vitrin tatlıları, serpme kahvaltı, waffle ve kahve.">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Piyola Cafe Restaurant · Hasan Gürbüz Parkı, Isparta</title>
+<meta name="description" content="Piyola Cafe Restaurant, Isparta'da Belediye önü Hasan Gürbüz Parkı'ndaki cam köşk. Her gün 09:00–00:00. Vitrin tatlıları, serpme kahvaltı, kahve. 0544 445 15 32">
+<meta name="theme-color" content="#ca8588">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="tr_TR">
 <meta property="og:title" content="Piyola Cafe Restaurant · Isparta">
 <meta property="og:description" content="Belediye önü, Hasan Gürbüz Parkı. Her gün 09:00–00:00.">
 <meta property="og:image" content="assets/kosk.jpg">
-<meta name="theme-color" content="#ca8588">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,600;1,800&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;0,600;1,500;1,600&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/video/hero.jpg">
 <link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CafeOrCoffeeShop",
+  "name": "Piyola Cafe Restaurant",
+  "image": "assets/kosk.jpg",
+  "telephone": "+90 544 445 15 32",
+  "priceRange": "200-400 TL",
+  "servesCuisine": ["Kahvaltı", "Tatlı", "Kahve"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Pirimehmet Mah., Mimar Sinan Cd. No:63",
+    "addressLocality": "Isparta Merkez",
+    "addressRegion": "Isparta",
+    "postalCode": "32100",
+    "addressCountry": "TR"
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "09:00",
+    "closes": "23:59"
+  }],
+  "sameAs": ["https://www.instagram.com/piyolacaferestaurant/"]
+}
+</script>
 </head>
 <body>
 
-<header class="top">
-  <a class="brand" href="#" aria-label="Piyola Cafe Restaurant">
-    <img src="assets/logo-beyaz.png" alt="" width="94" height="75">
+<a class="skip" href="#icerik">İçeriğe geç</a>
+
+<header class="nav" id="nav">
+  <a class="nav-logo" href="#top" aria-label="Piyola Cafe Restaurant, başa dön">
+    <img src="assets/logo-beyaz.png" alt="" width="188" height="149">
   </a>
-  <nav>
+  <nav class="nav-links" aria-label="Bölümler">
     <a href="#vitrin">Vitrin</a>
+    <a href="#kareler">Kareler</a>
     <a href="#kahvalti">Kahvaltı</a>
-    <a href="#kosk">Mekân</a>
-    <a href="#gel">Nasıl gelinir</a>
+    <a href="#kosk">Köşk</a>
+    <a href="#ziyaret">Ziyaret</a>
   </nav>
-  <a class="call" href="tel:+905444451532">0544 445 15 32</a>
+  <a class="nav-call" href="tel:+905444451532"><span class="status-dot" data-status-dot></span><span>0544 445 15 32</span></a>
 </header>
 
-<main>
+<main id="icerik">
 
-  <section class="hero">
-    <div class="hero-text">
-      <p class="where">Belediye önü · Hasan Gürbüz Parkı · Isparta</p>
-      <h1>Piyola</h1>
-      <p class="sub">Cafe Restaurant</p>
-      <p class="lede">Parkın ağaçları altında, cam tavanlı beyaz bir köşk. Sabah kahvaltısından gece yarısına kadar; vitrinde Fransız usulü meyve tatlıları, masada kahve.</p>
-      <div class="actions">
-        <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Piyola+Cafe+Mimar+Sinan+Cd.+No%3A63+Isparta" target="_blank" rel="noopener">Yol tarifi</a>
-        <a class="btn line" href="tel:+905444451532">Ara</a>
-      </div>
-      <ul class="facts">
-        <li><b>Her gün</b>09:00 – 00:00</li>
-        <li><b>Google</b>4,0 / 5 · 732 değerlendirme</li>
-        <li><b>Kişi başı</b>200 – 400 TL</li>
+<!-- GİRİŞ -->
+<section class="hero" id="top">
+  <div class="hero-copy">
+    <p class="hero-place reveal">Belediye önü &nbsp;·&nbsp; Hasan Gürbüz Parkı &nbsp;·&nbsp; Isparta</p>
+    <h1 class="reveal">Parkın içinde,<br><em>camdan bir köşk.</em></h1>
+    <p class="hero-lede reveal">Sabah serpme kahvaltıyla açılır, gece yarısı kapanır. Arada vitrin, kahve ve ağaçların gölgesi.</p>
+    <div class="hero-cta reveal">
+      <a class="btn btn-light" href="https://www.google.com/maps/search/?api=1&query=Piyola+Cafe+Mimar+Sinan+Cd.+No%3A63+Isparta" target="_blank" rel="noopener">Yol tarifi al</a>
+      <a class="btn btn-ghost" href="#vitrin">Vitrine bak</a>
+    </div>
+    <p class="hero-status reveal" data-status>Her gün 09:00 – 00:00</p>
+  </div>
+  <div class="hero-media reveal">
+    <div class="arch">
+      <video src="assets/video/hero.mp4" poster="assets/video/hero.jpg" autoplay muted loop playsinline preload="auto" aria-label="Bahçedeki masada, fıstıklı bardak tatlısının üzerine çikolata sos dökülüyor"></video>
+    </div>
+    <span class="hero-badge" aria-hidden="true"><img src="assets/logo-beyaz.png" alt="" width="188" height="149"></span>
+  </div>
+</section>
+
+<div class="ribbon" aria-hidden="true">
+  <div class="ribbon-track">
+    <span>Her gün 09:00 – 00:00</span><i>✦</i><span>Hasan Gürbüz Parkı</span><i>✦</i><span>Serpme kahvaltı</span><i>✦</i><span>Vitrin tatlıları</span><i>✦</i><span>Kahve</span><i>✦</i><span>Bahçe</span><i>✦</i>
+    <span>Her gün 09:00 – 00:00</span><i>✦</i><span>Hasan Gürbüz Parkı</span><i>✦</i><span>Serpme kahvaltı</span><i>✦</i><span>Vitrin tatlıları</span><i>✦</i><span>Kahve</span><i>✦</i><span>Bahçe</span><i>✦</i>
+  </div>
+</div>
+
+<!-- TANITIM -->
+<section class="intro">
+  <p class="intro-text reveal">Piyola, Isparta Belediyesi'nin önündeki Hasan Gürbüz Parkı'nda, cam tavanlı beyaz bir köşkte. İçeride camların ardında, dışarıda ağaçların altında oturulur.</p>
+  <dl class="stats">
+    <div class="reveal"><dt>Açık</dt><dd>Her gün<br><b>09:00 – 00:00</b></dd></div>
+    <div class="reveal"><dt>Google</dt><dd><b>4,0</b> / 5<br>732 değerlendirme</dd></div>
+    <div class="reveal"><dt>Kişi başı</dt><dd>Ortalama<br><b>200 – 400 TL</b></dd></div>
+  </dl>
+</section>
+
+<!-- VİTRİN -->
+<section class="vitrin" id="vitrin">
+  <header class="sec-head">
+    <p class="eyebrow reveal">Vitrin</p>
+    <h2 class="reveal">Meyve gibi görünen <em>tatlılar</em></h2>
+    <p class="reveal">Cedric Grolet'nin Fransız tatlılarından esinlenen, meyve ya da kahve çekirdeği biçiminde pastalar. Tarifler Piyola'nın kendi anlatımıyla.</p>
+  </header>
+
+  <article class="dish">
+    <div class="dish-media reveal"><div class="arch arch-sm"><img src="assets/frambuaz.jpg" alt="Altın altlık üzerinde frambuaz biçiminde tatlı" width="800" height="1061" loading="lazy"></div></div>
+    <div class="dish-text reveal">
+      <span class="dish-no">01</span>
+      <h3>Frambuaz</h3>
+      <ul>
+        <li>Belçika beyaz çikolatalı ipeksi krema</li>
+        <li>Frambuazlı akışkan dolgu</li>
+        <li>Kıtır kıtır çikolata kaplama</li>
       </ul>
     </div>
-    <figure class="hero-photo">
-      <img src="assets/bahce-kutu.jpg" alt="Piyola bahçesinde, logolu kutuda waffle, brownie, meyve ve soslar" width="1100" height="1467">
-    </figure>
-  </section>
+  </article>
 
-  <section id="vitrin" class="vitrin">
-    <header class="sec-head">
-      <p class="eyebrow">Vitrin</p>
-      <h2>Meyve gibi görünen <i>tatlılar</i></h2>
-      <p>Piyola'nın vitrininde Cedric Grolet'nin Fransız tatlılarından esinlenen, meyve ya da kahve çekirdeği şeklinde hazırlanmış pastalar var. Tarifleri kafenin kendi anlatımıyla:</p>
-    </header>
-
-    <div class="trio">
-      <article class="piece">
-        <img src="assets/frambuaz.jpg" alt="Frambuaz tatlısı, altın altlık üzerinde" width="800" height="1061" loading="lazy">
-        <h3>Frambuaz</h3>
-        <p>Belçika beyaz çikolatalı ipeksi krema, frambuazlı akışkan dolgu, kıtır kıtır çikolata kaplama.</p>
-      </article>
-      <article class="piece">
-        <img src="assets/seftali.jpg" alt="Şeftali şeklinde tatlı" width="800" height="1061" loading="lazy">
-        <h3>Şeftali</h3>
-        <p>Yumuşacık, jölemsi kıvamda şeftalili krema ve akışkan şeftali iç dolgusu.</p>
-      </article>
-      <article class="piece">
-        <img src="assets/kahve-cekirdegi.jpg" alt="Kahve çekirdeği şeklinde çikolata kaplı tatlı" width="800" height="607" loading="lazy">
-        <h3>Kahve Çekirdeği</h3>
-        <p>Islak kek, kahveli yumuşak krema ve akışkan kahve dolgusu.</p>
-      </article>
+  <article class="dish dish-flip">
+    <div class="dish-media reveal"><div class="arch arch-sm"><img src="assets/seftali.jpg" alt="Şeftali biçiminde, yeşil yapraklı tatlı" width="800" height="1061" loading="lazy"></div></div>
+    <div class="dish-text reveal">
+      <span class="dish-no">02</span>
+      <h3>Şeftali</h3>
+      <ul>
+        <li>Yumuşacık, jölemsi kıvamda şeftalili krema</li>
+        <li>Akışkan şeftali iç dolgusu</li>
+      </ul>
     </div>
+  </article>
 
-    <div class="strip">
-      <img src="assets/vitrin-sari.jpg" alt="Altın yaprak süslü meyve şeklinde tatlı, köşkün içinde" width="800" height="967" loading="lazy">
-      <img src="assets/lotus-dilim.jpg" alt="Lotus bisküvili çikolatalı pasta dilimi" width="800" height="1061" loading="lazy">
-      <img src="assets/vitrin.jpg" alt="Tatlı vitrini ve bardak tatlıları" width="800" height="1067" loading="lazy">
+  <article class="dish">
+    <div class="dish-media reveal"><div class="arch arch-sm"><img src="assets/kahve-cekirdegi.jpg" alt="Kahve çekirdeği biçiminde, çikolata kaplı tatlı" width="800" height="607" loading="lazy"></div></div>
+    <div class="dish-text reveal">
+      <span class="dish-no">03</span>
+      <h3>Kahve Çekirdeği</h3>
+      <ul>
+        <li>Islak kek</li>
+        <li>Kahveli yumuşak krema</li>
+        <li>Akışkan kahve dolgusu</li>
+      </ul>
     </div>
-  </section>
+  </article>
 
-  <section class="evening">
-    <video src="assets/aksam.mp4" poster="assets/aksam-poster.jpg" autoplay muted loop playsinline aria-label="Akşam, köşkün ışıkları altında bir masa"></video>
-    <div class="evening-text">
-      <p class="eyebrow">Gece yarısına kadar</p>
-      <h2>Fenerler yanınca köşk başka.</h2>
-      <p>Piyola her gün 09:00'dan 00:00'a kadar açık. Akşamüstü gelip ışıklar yanana kadar oturmak için vakit bol.</p>
+  <div class="rail-wrap">
+    <p class="rail-title reveal">Vitrinden daha fazlası <span aria-hidden="true">→</span></p>
+    <div class="rail" tabindex="0" aria-label="Vitrin fotoğrafları, yana kaydırılabilir">
+      <figure><img src="assets/vitrin-sari.jpg" alt="Altın yaprak süslü, meyve biçiminde tatlı" width="800" height="967" loading="lazy"></figure>
+      <figure><img src="assets/lotus-dilim.jpg" alt="Lotus bisküvili çikolatalı pasta dilimi" width="800" height="1061" loading="lazy"></figure>
+      <figure><img src="assets/vitrin.jpg" alt="Bardak tatlılarıyla dolu vitrin ve waffle kâsesi" width="800" height="1067" loading="lazy"></figure>
+      <figure><img src="assets/lotus-bahce.jpg" alt="Bahçe masasında Lotus soslu tatlı" width="1100" height="1467" loading="lazy"></figure>
+      <figure><img src="assets/bahce-waffle.jpg" alt="Bahçede, kâsede çilekli ve çikolatalı waffle" width="1100" height="1467" loading="lazy"></figure>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="kahvalti" class="breakfast">
-    <header class="sec-head">
-      <p class="eyebrow">Sabah</p>
-      <h2>Serpme <i>kahvaltı</i></h2>
-      <p>Kahvaltı serpme gelir, ürünlerin bir kısmı ev yapımı. Isparta kahvaltı rehberlerinde Piyola'nın tabağı için sayılanlar:</p>
-    </header>
-    <ul class="menu-list">
+<!-- KARELER -->
+<section class="reels" id="kareler">
+  <header class="sec-head sec-head-light">
+    <p class="eyebrow reveal">Kareler</p>
+    <h2 class="reveal">Piyola'dan <em>kısa anlar</em></h2>
+  </header>
+  <div class="reel-row">
+    <figure class="reel reveal"><video data-src="assets/video/aksam.mp4" poster="assets/video/aksam.jpg" muted loop playsinline preload="none"></video><figcaption>Akşam, köşkte</figcaption></figure>
+    <figure class="reel reveal"><video data-src="assets/video/frambuaz.mp4" poster="assets/video/frambuaz.jpg" muted loop playsinline preload="none"></video><figcaption>Frambuaz</figcaption></figure>
+    <figure class="reel reveal"><video data-src="assets/video/lotus.mp4" poster="assets/video/lotus.jpg" muted loop playsinline preload="none"></video><figcaption>Lotus bardaklar</figcaption></figure>
+    <figure class="reel reveal"><video data-src="assets/video/kutu.mp4" poster="assets/video/kutu.jpg" muted loop playsinline preload="none"></video><figcaption>Logolu kutu</figcaption></figure>
+    <figure class="reel reveal"><video data-src="assets/video/seftali.mp4" poster="assets/video/seftali.jpg" muted loop playsinline preload="none"></video><figcaption>Şeftali</figcaption></figure>
+    <figure class="reel reveal"><video data-src="assets/video/vitrin.mp4" poster="assets/video/vitrin.jpg" muted loop playsinline preload="none"></video><figcaption>Vitrinden</figcaption></figure>
+  </div>
+  <p class="reels-more reveal"><a href="https://www.instagram.com/piyolacaferestaurant/" target="_blank" rel="noopener">Daha fazlası Instagram'da · @piyolacaferestaurant</a></p>
+</section>
+
+<!-- KAHVALTI -->
+<section class="breakfast" id="kahvalti">
+  <div class="menu-card reveal">
+    <p class="eyebrow">Sabah</p>
+    <h2>Serpme <em>kahvaltı</em></h2>
+    <p class="menu-note">Tabak tabak gelir; ürünlerin bir kısmı ev yapımı.</p>
+    <span class="orn" aria-hidden="true">✦</span>
+    <ul class="menu-items">
       <li>Ege usulü reçelli lor</li>
       <li>Gül reçeli</li>
       <li>Çilek reçeli</li>
-      <li>Bal ve kaymak</li>
+      <li>Bal &amp; kaymak</li>
       <li>Klasik peynirler</li>
       <li>Zeytin</li>
       <li>Sucuk</li>
       <li>Haşlanmış yumurta</li>
       <li>Sigara böreği</li>
     </ul>
-    <p class="aside">Gün içinde öğle ve akşam yemeği menüsü de var; en çok önerilen pizza. Waffle ise gençlerin favorisi.</p>
-  </section>
+    <span class="orn" aria-hidden="true">✦</span>
+    <p class="menu-foot">Gün boyu öğle ve akşam yemeği de var; en çok önerilen pizza.<br>Waffle ise gençlerin favorisi.</p>
+  </div>
+</section>
 
-  <section id="kosk" class="kosk">
-    <figure>
-      <img src="assets/kosk.jpg" alt="Piyola'nın Hasan Gürbüz Parkı'ndaki cam tavanlı beyaz köşkü" width="903" height="539" loading="lazy">
-    </figure>
-    <div class="kosk-text">
-      <p class="eyebrow">Mekân</p>
-      <h2>Parkın içinde bir cam köşk</h2>
-      <p>Piyola, Belediye önündeki Hasan Gürbüz Parkı'nda. Kapalı bölüm cam tavanlı ve etrafı camla çevrili; dışarıda ağaçların gölgesinde bahçe masaları var.</p>
-      <p>Güler yüzlü personel ve hızlı servis, ziyaretçilerin en çok andığı şeyler arasında.</p>
-    </div>
-  </section>
+<!-- KÖŞK -->
+<section class="kosk" id="kosk">
+  <figure class="kosk-photo reveal">
+    <img src="assets/kosk.jpg" alt="Piyola'nın Hasan Gürbüz Parkı'ndaki cam tavanlı beyaz köşkü" width="903" height="539" loading="lazy">
+  </figure>
+  <div class="kosk-text">
+    <p class="eyebrow reveal">Köşk</p>
+    <h2 class="reveal">İçerisi cam, <em>dışarısı park.</em></h2>
+    <p class="reveal">Kapalı bölüm cam tavanlı ve etrafı camla çevrili; gün ışığı içeri doğrudan düşer. Dışarıda, parkın ağaçlarının gölgesinde bahçe masaları var.</p>
+    <p class="reveal">Ziyaretçilerin en çok andığı şeyler: güler yüzlü personel ve hızlı servis.</p>
+  </div>
+  <figure class="kosk-wide reveal">
+    <img src="assets/bahce-kutu.jpg" alt="Köşkün bahçe tarafı; fenerler, ağaçlar ve logolu tatlı kutusu" width="1100" height="1467" loading="lazy">
+  </figure>
+</section>
 
-  <section class="garden">
-    <img src="assets/bahce-waffle.jpg" alt="Bahçede, kâsede çilekli ve çikolatalı waffle" width="1100" height="1467" loading="lazy">
-    <img src="assets/lotus-bahce.jpg" alt="Bahçe masasında Lotus soslu tatlı, arkada ağaçlar" width="1100" height="1467" loading="lazy">
-  </section>
-
-  <section id="gel" class="visit">
-    <div class="info">
-      <p class="eyebrow">Nasıl gelinir</p>
-      <h2>Belediye önü, Hasan Gürbüz Parkı</h2>
-      <dl>
-        <dt>Adres</dt>
-        <dd>Pirimehmet Mah., Mimar Sinan Cd. No:63<br>32100 Isparta Merkez / Isparta</dd>
-        <dt>Saatler</dt>
-        <dd>Her gün 09:00 – 00:00</dd>
-        <dt>Telefon</dt>
-        <dd><a href="tel:+905444451532">0544 445 15 32</a></dd>
-        <dt>Instagram</dt>
-        <dd><a href="https://www.instagram.com/piyolacaferestaurant/" target="_blank" rel="noopener">@piyolacaferestaurant</a></dd>
-      </dl>
+<!-- ZİYARET -->
+<section class="visit" id="ziyaret">
+  <div class="visit-info">
+    <p class="eyebrow reveal">Ziyaret</p>
+    <h2 class="reveal">Belediye önü,<br><em>Hasan Gürbüz Parkı</em></h2>
+    <p class="visit-status reveal" data-status-long>Her gün 09:00 – 00:00 arası açık.</p>
+    <dl class="visit-list">
+      <div class="reveal"><dt>Adres</dt><dd>Pirimehmet Mah., Mimar Sinan Cd. No:63<br>32100 Isparta Merkez / Isparta</dd></div>
+      <div class="reveal"><dt>Saatler</dt><dd>Pazartesi – Pazar<br>09:00 – 00:00</dd></div>
+      <div class="reveal"><dt>Telefon</dt><dd><a class="big-link" href="tel:+905444451532">0544 445 15 32</a></dd></div>
+      <div class="reveal"><dt>Instagram</dt><dd><a href="https://www.instagram.com/piyolacaferestaurant/" target="_blank" rel="noopener">@piyolacaferestaurant</a></dd></div>
+    </dl>
+    <div class="visit-cta reveal">
+      <a class="btn btn-wine" href="https://www.google.com/maps/search/?api=1&query=Piyola+Cafe+Mimar+Sinan+Cd.+No%3A63+Isparta" target="_blank" rel="noopener">Google Haritalar'da aç</a>
+      <a class="btn btn-outline" href="tel:+905444451532">Hemen ara</a>
     </div>
-    <div class="map">
-      <iframe title="Piyola Cafe Restaurant haritası" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-        src="https://www.google.com/maps?q=Piyola+Cafe,+Mimar+Sinan+Cd.+No:63,+Pirimehmet,+32100+Isparta&output=embed"></iframe>
-    </div>
-  </section>
+  </div>
+  <div class="visit-map reveal">
+    <iframe title="Piyola Cafe Restaurant haritası" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+      src="https://www.google.com/maps?q=Piyola+Cafe,+Mimar+Sinan+Cd.+No:63,+Pirimehmet,+32100+Isparta&output=embed"></iframe>
+  </div>
+</section>
 
 </main>
 
-<footer>
-  <img src="assets/logo-beyaz.png" alt="Piyola Cafe Restaurant" width="70" height="56">
-  <p>Belediye önü, Hasan Gürbüz Parkı · Isparta<br>Her gün 09:00 – 00:00 · <a href="tel:+905444451532">0544 445 15 32</a></p>
+<footer class="foot">
+  <img class="foot-logo" src="assets/logo-beyaz.png" alt="Piyola Cafe Restaurant" width="188" height="149" loading="lazy">
+  <div class="foot-cols">
+    <p>Belediye önü, Hasan Gürbüz Parkı<br>Mimar Sinan Cd. No:63, Isparta</p>
+    <p>Her gün<br>09:00 – 00:00</p>
+    <p><a href="tel:+905444451532">0544 445 15 32</a><br><a href="https://www.instagram.com/piyolacaferestaurant/" target="_blank" rel="noopener">@piyolacaferestaurant</a></p>
+  </div>
+  <p class="foot-copy">© <span data-year>2026</span> Piyola Cafe Restaurant</p>
 </footer>
 
+<nav class="dock" aria-label="Hızlı işlemler">
+  <a href="tel:+905444451532">Ara</a>
+  <a href="https://www.google.com/maps/search/?api=1&query=Piyola+Cafe+Mimar+Sinan+Cd.+No%3A63+Isparta" target="_blank" rel="noopener">Yol tarifi</a>
+  <a href="https://www.instagram.com/piyolacaferestaurant/" target="_blank" rel="noopener">Instagram</a>
+</nav>
+
+<script src="main.js" defer></script>
 </body>
 </html>
